@@ -23,8 +23,8 @@
 			var q,u,a,c,k;
 			
 			// boring
-			function x(){return Math.floor(Math.random()*155)}
-			function y(){return Math.floor(Math.random()*25)} q=$(".bob");
+			function x(){return Math.floor(Math.random()*225)}
+			function y(){return Math.floor((Math.random()*145)+55)} q=$(".bob");
 			u=['<iframe src="//youtube.com/embed/m5qeuVOIbHk?rel=0&autoplay=1"></iframe>',
 			'<iframe src="//youtube.com/embed/idbaPu1gDPg?rel=0&autoplay=1"></iframe>',
 			'<iframe src="//youtube.com/embed/ubZwC-FmlOE?rel=0&autoplay=1"></iframe>'];a="aaayyy";c=$("body");k=["the bovine condition",
@@ -33,7 +33,7 @@
 			$(this).bind("touchstart touchmove mousemove",function(e){e.preventDefault();
 			if(e.originalEvent.touches){e=e.originalEvent.touches[0]||e.originalEvent.changedTouches[0]}q.show().css({left:e.pageX,top:e.pageY});
 			c.append('<img src="cow.gif" style="display: block; left: '+(e.pageX+Math.random()*10)+"px; top: "+(e.pageY+Math.random()*10)+'px">')});
-			setInterval(function(){c.css("background","rgb("+(x()-y())+","+x()+","+(x()-y())+")")},1500);var GoSquared={};GoSquared.acct="GSN-947162-E";(function(e){function t(){e._gstc_lt=+(new Date);
+			setInterval(function(){c.css("background","rgb("+(x()-y())+","+(x()-y())+","+x()+")")},1500);var GoSquared={};GoSquared.acct="GSN-947162-E";(function(e){function t(){e._gstc_lt=+(new Date);
 			var t=document,n=t.createElement("script");n.type="text/javascript";n.src="//d1l6p2sc9645hc.cloudfront.net/tracker.js";
 			var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(n,r)}e.addEventListener?e.addEventListener("load",t,false):e.attachEvent("onload",t)})(window);
 		</script>
