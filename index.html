@@ -6,13 +6,21 @@
 		
 		<link rel="shortcut icon" href="calf.gif">
 		
+		<script type="text/javascript">
+
+		var randombgs=["space.gif", "space2.gif"]
+
+		document.body.style.background='white url('+Math.floor(Math.random()*randombgs.length)]+')')
+
+		</script>
+		
 		<style>*{cursor:none}body,html{height:100%}body{overflow:hidden;-webkit-transition:background 1.5s}iframe,audio{position:absolute;left:-999em;
 		top:-999em}img{display:none;position:absolute;pointer-events:none}.sharing.is.caring{position:fixed;z-index:9999999;
 		left:50px;bottom:50px;width:400px;cursor:default}.sharing.is.caring iframe,.sharing.is.caring div{position:static;float:left}</style>
 		<style>
         body {
 
-        background: url("space2.gif") no-repeat center center fixed;
+        background: no-repeat center center fixed;
 
         background-size: cover;
              }
@@ -33,7 +41,8 @@
 			u=['<iframe src="//youtube.com/embed/m5qeuVOIbHk?rel=0&autoplay=1"></iframe>',
 			'<iframe src="//youtube.com/embed/idbaPu1gDPg?rel=0&autoplay=1"></iframe>',
 			'<iframe src="//youtube.com/embed/ubZwC-FmlOE?rel=0&autoplay=1"></iframe>',
-			'<iframe src="//youtube.com/embed/WsdnHaz90Fw?rel=0&autoplay=1"></iframe>'];a="ayy";c=$("body");k=["the bovine condition",
+			'<iframe src="//youtube.com/embed/WsdnHaz90Fw?rel=0&autoplay=1"></iframe>',
+			'<iframe src="//youtube.com/embed/FSSx9Z7-dJQ?rel=0&autoplay=1"></iframe>'];a="ayy";c=$("body");k=["the bovine condition",
 			"quiet desperation","the captive bolt lurks","we understand"];
 			c.append(u[Math.floor(Math.random()*u.length)]);document.title=k[Math.floor(Math.random()*k.length)];
 			$(this).bind("touchstart touchmove mousemove",function(e){e.preventDefault();
